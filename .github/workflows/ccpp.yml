@@ -15,11 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Install pdflatex
-      run: sudo apt-get install texlive-latex-base texlive-latex-recommended texlive-latex-extra
+      run: sudo apt-get install texlive-latex-base texlive-latex-recommended
     - name: Build pdf
       run: make kactl
     - name: Run compiles
       run: make test-compiles
     - name: Run stress tests
       run: make test
-      
+
