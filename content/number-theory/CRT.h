@@ -1,5 +1,5 @@
 /**
- * Author: Simon Lindholm
+ * Author: Codeforces
  * Date: 2019-05-22
  * License: CC0
  * Description: Chinese Remainder Theorem.

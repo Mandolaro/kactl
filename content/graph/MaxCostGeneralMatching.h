@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 /**
+ * Author: Github
+ * License: Unknown
  * Description: Given a weighted graph, matches every node on
  * the left with a node on the right such that no
  * nodes are in two matchings and the sum of the edge weights is minimal. Takes
